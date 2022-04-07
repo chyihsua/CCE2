@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-char line[2001][80];///2001¬O¬°¤F¤ñ¸ût¸òt+1
+char line[2001][80];///2001æ˜¯ç‚ºäº†æ¯”è¼ƒtè·Ÿt+1
 
 int compare (const void *p1,const void *p2)
 {
@@ -22,7 +22,7 @@ int main()
 
 	qsort (line,t,80,compare);
 
-	line[t][0]=0;///©w¸q²Ätµ§¸ê®Æ¡A¦]¬°°j°é¤£·|¶]¨ì²Ätµ§¦ı¶·­n°µ¤ñ¸û
+	line[t][0]=0;///å®šç¾©ç¬¬t+1ç­†è³‡æ–™ï¼Œåšæ”¶å°¾
 	int combo=1;
 	for (int i=0;i<t;i++)
 	{
